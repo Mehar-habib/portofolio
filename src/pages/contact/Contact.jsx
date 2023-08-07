@@ -33,9 +33,7 @@ function Contact() {
                 <FaEnvelopeOpen className="info__icon" />
                 <div>
                   <span className="info__title">Mail me</span>
-                  <span className="info__desc">
-                    habibsaddique4410@gmail.com
-                  </span>
+                  <h4 className="info__desc">habibsaddique4410@gmail.com</h4>
                 </div>
               </div>
 
@@ -43,7 +41,7 @@ function Contact() {
                 <FaPhoneSquareAlt className="info__icon" />
                 <div>
                   <span className="info__title">Call me</span>
-                  <span className="info__desc">+923078474302</span>
+                  <h4 className="info__desc">+923078474302</h4>
                 </div>
               </div>
             </div>
@@ -105,7 +103,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="form__input-div">
+            <div className="form__input-dev">
               <textarea
                 placeholder="Your Message"
                 className="form__control textarea"
