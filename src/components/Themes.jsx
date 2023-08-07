@@ -5,15 +5,24 @@ import "./themes.css";
 import ThemeItem from "./ThemeItem";
 import { useEffect, useState } from "react";
 
+const getStorageColor = () => {
+  let color = "hsl(252, 35%, 51%)";
+  if (localStorage.getItem("color")) {
+    color = localStorage.getItem("color");
+  }
+  return color;
+};
+
 function Themes() {
   const [showSwitcher, setShowSwitcher] = useState(false);
-  const [color, setColor] = useState("red");
+  const [color, setColor] = useState(getStorageColor());
 
   const changeColor = (color) => {
     setColor(color);
   };
   useEffect(() => {
     document.documentElement.style.setProperty("--first-color", color);
+    localStorage.setItem("color", color);
   }, [color]);
 
   return (
