@@ -11,6 +11,10 @@
     font-weight: var(--weight-600);
     margin-bottom: 20px;
 }
+.section__subtitle{
+    padding-bottom: 18px;
+    font-size: var(--h3-font-size);
+}
 .info__list .info__title,
 .info__list .info__description{
     font-size: var(--small-font-size);
