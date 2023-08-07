@@ -29,6 +29,8 @@ function Home() {
             </Link>
           </div>
         </div>
+        {/* color block behind the picture */}
+        <div className="color__block"></div>
       </section>
     </>
   );

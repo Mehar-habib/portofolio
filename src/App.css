@@ -88,6 +88,7 @@ img{
     font-size: var(--small-font-size);
     position: relative;
     overflow: hidden;
+    transition: all 0.25s ease-in-out;
 }
 .button:hover{
     color: var(--text-white);
