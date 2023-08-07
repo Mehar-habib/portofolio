@@ -122,8 +122,8 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "0.6+",
-    title: "Years of <br /> Experience",
+    no: "06+",
+    title: "Months of <br /> Experience",
   },
 
   {
@@ -204,32 +204,32 @@ export const resume = [
 export const skills = [
   {
     id: 1,
-    title: "Html",
-    percentage: "25",
+    title: "Html/Css",
+    percentage: "62",
   },
 
   {
     id: 2,
     title: "Javascript",
-    percentage: "89",
+    percentage: "67",
   },
 
   {
     id: 3,
-    title: "Css",
-    percentage: "70",
+    title: "TypeScript",
+    percentage: "50",
   },
 
   {
     id: 4,
-    title: "Php",
-    percentage: "66",
+    title: "MongoDB",
+    percentage: "71",
   },
 
   {
     id: 5,
-    title: "Wordpress",
-    percentage: "95",
+    title: "NextJs",
+    percentage: "67",
   },
 
   {
@@ -240,14 +240,14 @@ export const skills = [
 
   {
     id: 7,
-    title: "Angular",
-    percentage: "65",
+    title: "NodeJs",
+    percentage: "56",
   },
 
   {
     id: 8,
     title: "React",
-    percentage: "45",
+    percentage: "76",
   },
 ];
 
