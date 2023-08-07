@@ -52,6 +52,11 @@
     display: grid;
     place-items: center;
     box-shadow: 0 0 2px hsl(0, 0%, 80%);
+    transition: all 0.3s ease;
+}
+.show-switcher .style__switcher-toggler,
+.show-switcher .theme__toggler{
+    left: -100%;
 }
 .style__switcher-toggler{
     top: 10%;
