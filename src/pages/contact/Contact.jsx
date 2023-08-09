@@ -50,24 +50,32 @@ function Contact() {
             <div className="contact__socials">
               <a
                 href="https://www.facebook.com/profile.php?id=100024435036543"
+                target="_blank"
+                rel="noreferrer"
                 className="contact__social-link"
               >
                 <FaFacebookF />
               </a>
               <a
                 href="https://twitter.com/MrHabibSaddique"
+                target="_blank"
+                rel="noreferrer"
                 className="contact__social-link"
               >
                 <FaTwitter />
               </a>
               <a
                 href="https://www.instagram.com/mehar_habib_/"
+                target="_blank"
+                rel="noreferrer"
                 className="contact__social-link"
               >
                 <FaInstagram />
               </a>
               <a
                 href="www.linkedin.com/in/habib-ur-rehman-9a5917281"
+                target="_blank"
+                rel="noreferrer"
                 className="contact__social-link"
               >
                 <FaLinkedinIn />
