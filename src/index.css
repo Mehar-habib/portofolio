@@ -32,11 +32,7 @@
     .skills__title{
         margin-top: 20px;
     }
-    .resume__icon{
-        width: 36px;
-        height: 36px;
-        line-height: 36;
-    }
+
     .resume__item{
         padding-left: 55px;
     }
@@ -71,7 +67,7 @@
         padding-right: 0;
     }
     .section{
-        padding-block: 35px;
+        padding-block: 50px;
     }
     .section__title{
         margin-bottom: 40px;
@@ -99,7 +95,7 @@
     .separator{
         margin: 65px auto 50px;
     }
-    .progress__container{
+    .portfolio__container{
         grid-template-columns: repeat(2, 1fr);
     }
     .contact__container{
@@ -137,7 +133,7 @@
         display: block;
     }
     .container{
-        min-width: 450px;
+        min-width: 540px;
     }
     .portfolio__modal-content{
         padding: 25px 20px;
@@ -218,7 +214,7 @@
 }
 
 @media screen and (max-width: 350px){
-    .home__title{
+    .home__title span{
         display: inline;
     }
     .stats{
