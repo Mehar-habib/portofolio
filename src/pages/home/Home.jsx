@@ -1,9 +1,28 @@
 import Profile from "../../assets/home.jpg";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import Type from "typed.js";
+import { useEffect, useRef } from "react";
 import "./home.css";
 
 function Home() {
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Type(el.current, {
+      strings: [
+        "Web Developer",
+        "MERN Developer",
+        "Web Designer",
+        "freelancer",
+        "Blogger",
+      ],
+      typeSpeed: 150,
+      loop: true,
+    });
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <>
       <section className="home section grid">
@@ -12,7 +31,7 @@ function Home() {
         <div className="home__content">
           <div className="home__data">
             <h1 className="home__title">
-              <span>I&apos;m Mehar Habib.</span> Web Developer
+              <span>I&apos;m Mehar Habib.</span> <br /> <strong ref={el} />
             </h1>
 
             <p className="home__description">

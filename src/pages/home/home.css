@@ -25,6 +25,9 @@
 .home__title span{
     color: var(--first-color);
 }
+.home__title span > span{
+    color: #fff;
+}
 .home__title::before{
     content: "";
     position: absolute;
